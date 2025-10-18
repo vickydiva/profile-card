@@ -10,4 +10,4 @@ A simple responsive profile card built with HTML, CSS, and JavaScript.
 ## How to Run Locally
 1. Clone the repo:
    ```bash
-   git clone https://github.com/<vickydiva>/profile-card-project.git
+   git clone https://github.com/vickydiva/profile-card-project.git
