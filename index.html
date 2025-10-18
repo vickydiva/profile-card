@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <div class="container">
+    <article data-testid="test-profile-card" >
+     <header>
+      <h2 data-testid="test-user-name"  aria-label="User Name">Victoria Roland</h2>
+     </header>
+   
+     
+<figure>
+      <img 
+        data-testid="test-user-avatar" 
+        src="images/pretty.jpg" 
+        alt="Portrait of Victoria Roland"
+      />
+      <figcaption>profile image</figcaption>
+      </figure>
+
+      <p data-testid="test-user-bio">
+        Hi! I'm a web developer who loves building responsive and interactive websites. 
+        I turn ideas into clean, efficient code, and my main goal is to create an experiences users enjoy.
+      </p>
+
+      <p>
+        Current time in milliseconds:
+        <span data-testid="test-user-time"></span>
+      </p>
+
+<div class="box">
+    <section aria-label="User Hobbies">
+      <h3>Hobbies</h3>
+      <ul data-testid="test-user-hobbies">
+        <li>Listening to calm songs</li>
+        <li>Cooking</li>
+        <li>Reading</li>
+        <li>Coding</li>
+        <li>Gaining new knowledge and experiences</li>
+      </ul>
+      </section>
+
+       <section aria-label="User Dislikes">
+        <h3>Dislikes</h3> 
+      <ul data-testid="test-user-dislikes">
+        <li>Spam email</li>
+        <li>Noise</li>
+        <li>Dirty environment</li>
+      </ul>
+  
+      </section>
+        </div>
+    <nav aria-label="Social Media Links">
+  <ul data-testid="test-user-social-links">
+    <li><a href="#" data-testid="test-user-social-facebook" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+    <li><a href="#" data-testid="test-user-social-twitter" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+    <li><a href="#" data-testid="test-user-social-tiktok" target="_blank" rel="noopener noreferrer">TikTok</a></li>
+  </ul>
+</nav>
+    
+    </article>
+  </div>
+
+  <script src="index.js"></script>
+ 
+</body>
+</html>
