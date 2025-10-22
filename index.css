@@ -9,7 +9,7 @@
     height: 120vh;
     background-image: url(images/pxfuel.jpg);
     background-size: cover;
-    background-blend-mode:multiply ;
+    background-blend-mode: multiply;
     background-color: grey;
     display: flex;
     justify-content: center;
@@ -32,6 +32,7 @@ article {
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    gap: 10px;
 }
   :root {
     --text-color: ivory;
@@ -95,8 +96,76 @@ img{
      
 }
 
+.con{
+  display: flex;
+  gap:15px ;
+  
+  
+}
 
-  @media (max-width: 768px) {
+.btn {
+  display: inline-block;
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: #0056b3;
+}
+
+
+button{
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  background-color:skyblue;
+}
+
+button:hover{
+  background-color:aqua;
+ 
+}
+ 
+.content{
+    width: 100%;
+    max-width: 1380px;
+    height: 100vh;
+    background-color: aqua;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col1{
+  max-width: 400px;
+  width: 100%;
+  min-height:400px ;
+  margin: auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+ box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+
+}
+.form-group{
+ margin-bottom: 15px;}
+label{ display: block; margin-bottom: 5px; font-weight: bold;}
+textarea{
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  
+}
+
+
+.error{
+  color: red;
+}
+
+
+
+@media (max-width:768px) {
   article {
     max-width: 90%;
     padding: 15px;
@@ -104,16 +173,10 @@ img{
 
   .box {
     flex-direction: column;
-    align-items: center;
     gap: 10px;
   }
 
   figure img {
     width: 120px;
-  }
-}
-
-
-
-
+  }}
 

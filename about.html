@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container" data-testid="test-about-page">
+    <section>
+      <h2>About Me</h2>
+      <figure>
+        <img 
+          data-testid="test-user-avatar" 
+          src="images/pretty.jpg" 
+          alt="Portrait of Victoria Roland"
+        />
+        <figcaption>Victoria Roland</figcaption>
+      </figure>
+    </section>
+
+    <section class="box" data-testid="test-about-bio" aria-labelledby="bio-heading">
+      <h3 id="bio-heading">Bio</h3>
+      <p data-testid="test-user-bio">
+        I’m a Full Stack Developer who enjoys bringing ideas to life through clean, functional, and visually appealing web applications.
+        I work with HTML, CSS, JavaScript, React, PHP, and SQL, and I`m passionate about continuous learning  exploring both the front-end experience and the back-end logic that powers it.
+        I like solving problems, collaborating with others, and learning how different pieces of technology come together to make a complete system.
+        I see coding not just as writing lines of logic, but as creating something meaningful that people can actually use.
+      </p>
+    </section>
+
+    <section data-testid="test-about-goals" aria-labelledby="goals-heading">
+      <h3 id="goals-heading">Goals in this program</h3>
+      <ul>
+        <li>Strengthen my knowledge of React, JavaScript, and backend logic using PHP or Node.js.</li>
+        <li>Learn how to connect the front-end and back-end smoothly using APIs and databases.</li>
+        <li>Practice writing clean, reusable code and understand how to debug and test effectively.</li>
+        <li>Collaborate with other developers, get feedback, and apply it to improve my projects.</li>
+        <li>Build a portfolio project I can be proud of something that truly reflects my skills and creativity.</li>
+      </ul>
+      <p>
+        This program is not just about finishing tasks; it`s about becoming confident enough to take on real world projects and solve problems independently.
+      </p>
+    </section>
+
+    <section data-testid="test-about-confidence" aria-labelledby="confidence-heading">
+      <h3 id="confidence-heading">Areas of low confidence</h3>
+      <ul>
+        <li>Feeling stuck when I don`t understand what`s causing a bug.</li>
+        <li>Worrying that my code isn`t elegant or efficient.</li>
+        <li>Feeling frustrated when a design breaks on mobile or looks different on other screens.</li>
+        <li>Thinking "my question might sound dumb."</li>
+      </ul>
+    </section>
+
+    <section data-testid="test-about-future-note" aria-labelledby="future-note-heading">
+      <h3 id="future-note-heading">Note to future self</h3>
+      <p>
+        Hey future me,  
+        Remember this: you started from curiosity. You didn`t know everything, but you had the courage to begin and that`s what made all the difference.  
+        There were days when the code broke for no reason or so it seemed(lol).  
+        Days when tutorials felt overwhelming.  
+        Days you compared yourself to other developers and felt behind.  
+        But you kept showing up. You kept learning, debugging, breaking things, and fixing them again.  
+        Each “error” was never a failure it was a step forward.  
+        Each project you built, no matter how small, added to your skill and confidence.  
+        Keep that same energy: stay curious, stay humble, and never stop learning.  
+        You didn`t give up when it was hard  and that`s something to be proud of.  
+        Your journey isn`t about perfection it`s about persistence.  
+        And you`re doing just fine.  
+        <br><br>
+        {From your past self, who believed in you even on the tough days.}
+      </p>
+    </section>
+
+    <section data-testid="test-about-extra" aria-labelledby="extra-heading">
+      <h3 id="extra-heading">Extra thoughts</h3>
+      <p>
+        Growth doesn`t always look like progress sometimes it`s just the patience to try again tomorrow.  
+        It`s okay to not know everything; what matters is the willingness to figure things out.  
+        Remember how far you`ve come from writing your first line of code to building real projects that work.  
+        Collaboration over competition  you don`t have to be the best alone; learn, share, and grow with others.  
+        Don`t rush success. Build the foundation strong; the rest will follow.  
+        <br><br>
+        Keep your creativity alive. Code is logic, yes but it`s also art.  
+        Your value as a developer isn`t just in your code, but in your mindset, kindness, and consistency.  
+        Celebrate small wins. One bug fixed, one concept understood they all count.
+      </p>
+    </section>
+
+    <a class="btn" href="index.html">Back</a>
+  </main>
+</body>
+</html>
